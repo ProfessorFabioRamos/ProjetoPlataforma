@@ -1,0 +1,1730 @@
+fileFormatVersion: 2
+guid: 9545c750e1f82ed4ba2b1181ed02b5e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6607475442219093279
+    second: wolverine_0
+  - first:
+      213: 7375297942701483651
+    second: wolverine_1
+  - first:
+      213: -2630324546083191347
+    second: wolverine_2
+  - first:
+      213: 3347768669188968582
+    second: wolverine_3
+  - first:
+      213: -842756423898812289
+    second: wolverine_4
+  - first:
+      213: 8559662758694013524
+    second: wolverine_5
+  - first:
+      213: -6191879707433222425
+    second: wolverine_6
+  - first:
+      213: 3003951459580589492
+    second: wolverine_7
+  - first:
+      213: -8947580594355030175
+    second: wolverine_8
+  - first:
+      213: 2272727717140774350
+    second: wolverine_9
+  - first:
+      213: -3020140128511580251
+    second: wolverine_10
+  - first:
+      213: -5168274087564027731
+    second: wolverine_11
+  - first:
+      213: 3613670169807133737
+    second: wolverine_12
+  - first:
+      213: 1980845847132316438
+    second: wolverine_13
+  - first:
+      213: -666920966049839818
+    second: wolverine_14
+  - first:
+      213: 4411220662250485440
+    second: wolverine_15
+  - first:
+      213: 8607799216165915836
+    second: wolverine_16
+  - first:
+      213: 8111707189955406148
+    second: wolverine_17
+  - first:
+      213: -1606514328596382023
+    second: wolverine_18
+  - first:
+      213: -3269497528918972836
+    second: wolverine_19
+  - first:
+      213: -3165327067852637181
+    second: wolverine_20
+  - first:
+      213: 3964445417684740054
+    second: wolverine_21
+  - first:
+      213: 8149129098296232286
+    second: wolverine_22
+  - first:
+      213: 7893643609081312165
+    second: wolverine_23
+  - first:
+      213: -2516922150818018223
+    second: wolverine_24
+  - first:
+      213: 2638136641072426967
+    second: wolverine_25
+  - first:
+      213: -4106147942956296720
+    second: wolverine_26
+  - first:
+      213: 3847419721600182400
+    second: wolverine_27
+  - first:
+      213: 6394764175580913185
+    second: wolverine_28
+  - first:
+      213: -6148908475314451359
+    second: wolverine_29
+  - first:
+      213: 313265896275030738
+    second: wolverine_30
+  - first:
+      213: 1944497430475872921
+    second: wolverine_31
+  - first:
+      213: -5734173209847631482
+    second: wolverine_32
+  - first:
+      213: -5147106496567311187
+    second: wolverine_33
+  - first:
+      213: 7692231310276937670
+    second: wolverine_34
+  - first:
+      213: -5175742231594819638
+    second: wolverine_35
+  - first:
+      213: -1968671277478163021
+    second: wolverine_36
+  - first:
+      213: 7278820366840501715
+    second: wolverine_37
+  - first:
+      213: -8799596558757027308
+    second: wolverine_38
+  - first:
+      213: 6474964641896438162
+    second: wolverine_39
+  - first:
+      213: -5942797823390462090
+    second: wolverine_40
+  - first:
+      213: -1318326401735914909
+    second: wolverine_41
+  - first:
+      213: 784398560727951616
+    second: wolverine_42
+  - first:
+      213: 8075037331459004811
+    second: wolverine_43
+  - first:
+      213: 8070352925440756580
+    second: wolverine_44
+  - first:
+      213: -3049369878320653353
+    second: wolverine_45
+  - first:
+      213: -1989993234851934838
+    second: wolverine_46
+  - first:
+      213: -5405007432662971797
+    second: wolverine_47
+  - first:
+      213: -5557649629716566817
+    second: wolverine_48
+  - first:
+      213: 4572858098568258964
+    second: wolverine_49
+  - first:
+      213: -5430592242447430356
+    second: wolverine_50
+  - first:
+      213: 2116009182780347678
+    second: wolverine_51
+  - first:
+      213: 1034385198285567851
+    second: wolverine_52
+  - first:
+      213: -1792503349320923980
+    second: wolverine_53
+  - first:
+      213: -1938395112242292092
+    second: wolverine_54
+  - first:
+      213: -4759388367443197940
+    second: wolverine_55
+  - first:
+      213: 5174461330140143628
+    second: wolverine_56
+  - first:
+      213: 2944756644850827905
+    second: wolverine_57
+  - first:
+      213: 9152108949695203582
+    second: wolverine_58
+  - first:
+      213: -5810742098519046556
+    second: wolverine_59
+  - first:
+      213: 6465449008677211500
+    second: wolverine_60
+  - first:
+      213: -4315682272111724670
+    second: wolverine_61
+  - first:
+      213: -6989875643521540040
+    second: wolverine_62
+  - first:
+      213: -5984956169950698916
+    second: wolverine_63
+  - first:
+      213: 1356099379831431463
+    second: wolverine_64
+  - first:
+      213: -1449547026160197097
+    second: wolverine_65
+  - first:
+      213: 3115231628002996342
+    second: wolverine_66
+  - first:
+      213: 6010661317324319039
+    second: wolverine_67
+  - first:
+      213: -1532803715360419321
+    second: wolverine_68
+  - first:
+      213: -1607906749205485016
+    second: wolverine_69
+  - first:
+      213: 5284042361925861995
+    second: wolverine_70
+  - first:
+      213: 5712236606993243785
+    second: wolverine_71
+  - first:
+      213: 656872594968005976
+    second: wolverine_72
+  - first:
+      213: 7290677796098079438
+    second: wolverine_73
+  - first:
+      213: 2864385261470155845
+    second: wolverine_74
+  - first:
+      213: 5761416493042928867
+    second: wolverine_75
+  - first:
+      213: 1870369641107347624
+    second: wolverine_76
+  - first:
+      213: 1595093340750511808
+    second: wolverine_77
+  - first:
+      213: -8799514205178106216
+    second: wolverine_78
+  - first:
+      213: -7214550356108814694
+    second: wolverine_79
+  - first:
+      213: -5707826026573675570
+    second: wolverine_80
+  - first:
+      213: -5590635437196987240
+    second: wolverine_81
+  - first:
+      213: -7922803846067160341
+    second: wolverine_82
+  - first:
+      213: 1991462285456784355
+    second: wolverine_83
+  - first:
+      213: 6816294398313056336
+    second: wolverine_84
+  - first:
+      213: -8748623787602092908
+    second: wolverine_85
+  - first:
+      213: -2407372582415565594
+    second: wolverine_86
+  - first:
+      213: 3459139536446797226
+    second: wolverine_87
+  - first:
+      213: -7044044072547614004
+    second: wolverine_88
+  - first:
+      213: -9177107522448270045
+    second: wolverine_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wolverine_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 632
+        width: 51
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d069328e772bb50800000000000000
+      internalID: 6607475442219093279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 632
+        width: 51
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386246327625a5660800000000000000
+      internalID: 7375297942701483651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 632
+        width: 51
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc588bae2c53f7bd0800000000000000
+      internalID: -2630324546083191347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 632
+        width: 50
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d03d0ed9a57e20800000000000000
+      internalID: 3347768669188968582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 632
+        width: 46
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7035516f7ded44f0800000000000000
+      internalID: -842756423898812289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 632
+        width: 47
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac8119de70ac670800000000000000
+      internalID: 8559662758694013524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 632
+        width: 56
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee3e7a4636021aa0800000000000000
+      internalID: -6191879707433222425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 632
+        width: 50
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b531d6dfed20b920800000000000000
+      internalID: 3003951459580589492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_8
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 632
+        width: 46
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1673a421bdec3d380800000000000000
+      internalID: -8947580594355030175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 552
+        width: 58
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd3c5b31d95a8f10800000000000000
+      internalID: 2272727717140774350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 552
+        width: 85
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a72a24fd8e4616d0800000000000000
+      internalID: -3020140128511580251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 552
+        width: 55
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8d3ec991a9648b0800000000000000
+      internalID: -5168274087564027731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 552
+        width: 71
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c97c69fd5562230800000000000000
+      internalID: 3613670169807133737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 552
+        width: 51
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61321219dc06d7b10800000000000000
+      internalID: 1980845847132316438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 552
+        width: 51
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635c6553aee9eb6f0800000000000000
+      internalID: -666920966049839818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 552
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6bd4712ddc73d30800000000000000
+      internalID: 4411220662250485440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 552
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8471f7cb057770800000000000000
+      internalID: 8607799216165915836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 552
+        width: 45
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449264b26b2929070800000000000000
+      internalID: 8111707189955406148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 480
+        width: 57
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9beff65dab384b9e0800000000000000
+      internalID: -1606514328596382023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 480
+        width: 62
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5664cae15960a2d0800000000000000
+      internalID: -3269497528918972836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 90
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cf6ba6dcf7214d0800000000000000
+      internalID: -3165327067852637181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_21
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 480
+        width: 93
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d726845a1a840730800000000000000
+      internalID: 3964445417684740054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 37
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e590fbc2db5871170800000000000000
+      internalID: 8149129098296232286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_23
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 37
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3f2d64a0bdb8d60800000000000000
+      internalID: 7893643609081312165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_24
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 480
+        width: 37
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c0e2993a8121dd0800000000000000
+      internalID: -2516922150818018223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 392
+        width: 49
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df60103c4b8c9420800000000000000
+      internalID: 2638136641072426967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 392
+        width: 52
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f593e083380407c0800000000000000
+      internalID: -4106147942956296720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 392
+        width: 67
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088afcf2ad7c46530800000000000000
+      internalID: 3847419721600182400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 392
+        width: 63
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ed4e30324ceb850800000000000000
+      internalID: 6394764175580913185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 392
+        width: 55
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c4e7ce150baaaa0800000000000000
+      internalID: -6148908475314451359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_30
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 392
+        width: 41
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2b7b34ca1f85400800000000000000
+      internalID: 313265896275030738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 392
+        width: 35
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a9c225c1e3cfa10800000000000000
+      internalID: 1944497430475872921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_32
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 392
+        width: 64
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681787ab8df1c60b0800000000000000
+      internalID: -5734173209847631482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 392
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4000379edc198b0800000000000000
+      internalID: -5147106496567311187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_34
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 296
+        width: 34
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7c13b1f9b40ca60800000000000000
+      internalID: 7692231310276937670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 296
+        width: 53
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf9dc4dcd11c28b0800000000000000
+      internalID: -5175742231594819638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 296
+        width: 64
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd466257efdda4e0800000000000000
+      internalID: -1968671277478163021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 296
+        width: 64
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5186d0f80930560800000000000000
+      internalID: 7278820366840501715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 296
+        width: 66
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a9845d8d81e580800000000000000
+      internalID: -8799596558757027308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 296
+        width: 55
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29993753902bbd950800000000000000
+      internalID: 6474964641896438162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 192
+        width: 55
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fc8dcadd0f68da0800000000000000
+      internalID: -5942797823390462090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_41
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 192
+        width: 59
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a03865f1d54bde0800000000000000
+      internalID: -1318326401735914909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 56
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0096486c55eb2ea00800000000000000
+      internalID: 784398560727951616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 45
+        height: 93
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89d1a96bab401070800000000000000
+      internalID: 8075037331459004811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 56
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b4ee42a37afff60800000000000000
+      internalID: 8070352925440756580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_45
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 192
+        width: 49
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbdbed70467ea5d0800000000000000
+      internalID: -3049369878320653353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 63
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d483342bf1264e0800000000000000
+      internalID: -1989993234851934838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 51
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a07cf706e8df4b0800000000000000
+      internalID: -5405007432662971797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 35
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdca9a28b134fd2b0800000000000000
+      internalID: -5557649629716566817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_49
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 32
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495ed6d663e067f30800000000000000
+      internalID: 4572858098568258964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 40
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dcde4c029a2a4b0800000000000000
+      internalID: -5430592242447430356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_51
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 26
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15561104239d5d10800000000000000
+      internalID: 2116009182780347678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_52
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 96
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67bbb08bdfda5e00800000000000000
+      internalID: 1034385198285567851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 31
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4470d63bfbf17e0800000000000000
+      internalID: -1792503349320923980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_54
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 96
+        width: 26
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ad17c5aef6915e0800000000000000
+      internalID: -1938395112242292092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_55
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 30
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c000c620f7143fdb0800000000000000
+      internalID: -4759388367443197940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_56
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 96
+        width: 35
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00affe0a216fc740800000000000000
+      internalID: 5174461330140143628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_57
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 96
+        width: 35
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1820e460190edd820800000000000000
+      internalID: 2944756644850827905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_58
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 96
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8814c8992d20f70800000000000000
+      internalID: 9152108949695203582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_59
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 55
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4664d5819d81c5fa0800000000000000
+      internalID: -5810742098519046556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 16
+        width: 60
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d4b933e93e9b950800000000000000
+      internalID: 6465449008677211500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_61
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 51
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2877457c6dd9b14c0800000000000000
+      internalID: -4315682272111724670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_62
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 60
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8306ebbd229fefe90800000000000000
+      internalID: -6989875643521540040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolverine_63
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 16
+        width: 56
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c526ec5b21a21fca0800000000000000
+      internalID: -5984956169950698916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
