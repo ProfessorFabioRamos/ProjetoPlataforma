@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed = 4;
-    public float jumpForce;
+    public float jumpForce = 200;
     private Rigidbody2D rig;
     private Animator anim;
     private SpriteRenderer spr;
@@ -24,5 +24,26 @@ public class PlayerMovement : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
 
         rig.velocity = new Vector2(movementSpeed*h, rig.velocity.y);
+        anim.SetFloat("speed", Mathf.Abs(h));
+        if(Input.GetButtonDown("Jump")){
+            rig.AddForce(Vector2.up * jumpForce);
+            anim.SetBool("jump", true);
+        }
+
+        if(h > 0)
+             Flip(true);
+        else if(h < 0)
+            Flip(false);
+    }
+
+    void Flip(bool faceRight){
+        if(faceRight)
+            spr.flipX = false;
+        else
+            spr.flipX = true;
+    }
+
+    void OnCollisionEnter2D(){
+        anim.SetBool("jump", false);
     }
 }
