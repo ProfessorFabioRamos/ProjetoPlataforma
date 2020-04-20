@@ -9,7 +9,10 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rig;
     private Animator anim;
     private SpriteRenderer spr;
-
+    public Transform groundCheck;
+    public bool grounded;
+    public float groundCheckRadius = 0.2f;
+    public LayerMask whatIsGround;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +28,10 @@ public class PlayerMovement : MonoBehaviour
 
         rig.velocity = new Vector2(movementSpeed*h, rig.velocity.y);
         anim.SetFloat("speed", Mathf.Abs(h));
-        if(Input.GetButtonDown("Jump")){
+
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+
+        if(Input.GetButtonDown("Jump") && grounded){
             rig.AddForce(Vector2.up * jumpForce);
             anim.SetBool("jump", true);
         }
