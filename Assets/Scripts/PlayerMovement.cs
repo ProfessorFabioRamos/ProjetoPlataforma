@@ -13,6 +13,8 @@ public class PlayerMovement : MonoBehaviour
     public bool grounded;
     public float groundCheckRadius = 0.2f;
     public LayerMask whatIsGround;
+    public bool attacking;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,16 +32,21 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("speed", Mathf.Abs(h));
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        anim.SetBool("jump", !grounded);
 
         if(Input.GetButtonDown("Jump") && grounded){
             rig.AddForce(Vector2.up * jumpForce);
-            anim.SetBool("jump", true);
         }
 
         if(h > 0)
              Flip(true);
         else if(h < 0)
             Flip(false);
+
+
+        if(Input.GetKeyDown(KeyCode.E)){
+            anim.SetTrigger("attack");
+        }
     }
 
     void Flip(bool faceRight){
@@ -49,7 +56,18 @@ public class PlayerMovement : MonoBehaviour
             spr.flipX = true;
     }
 
-    void OnCollisionEnter2D(){
-        anim.SetBool("jump", false);
+    void OnTriggerStay2D(Collider2D other){
+        if(other.tag == "Enemy" && attacking){
+            other.gameObject.GetComponent<Enemy>().TakeDamage(1);
+            attacking = false;
+        }
     }
+
+    public void Attack(){
+        attacking = true;
+    }
+    public void CancelAttack(){
+        attacking = false;
+    }
+
 }
