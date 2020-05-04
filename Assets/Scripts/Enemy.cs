@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public int enemyHP = 3;
+    public float moveSpeed = 2;
     Animator anim;
     Rigidbody2D rig;
 
@@ -16,10 +17,10 @@ public class Enemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        //transform.Translate(Vector2.left * Time.deltaTime*50);
-        rig.AddForce(new Vector2(5000,0));
+        rig.velocity = new Vector2(moveSpeed, rig.velocity.y);
+        anim.SetFloat("speed", Mathf.Abs(rig.velocity.x));
     }
 
     public void TakeDamage(int damage){
@@ -31,5 +32,16 @@ public class Enemy : MonoBehaviour
 
     public void DestroyEnemy(){
         Destroy(this.gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D other){
+        if(other.gameObject.tag == "Limiter"){
+            moveSpeed *= -1;
+            if(moveSpeed > 0)
+                GetComponent<SpriteRenderer>().flipX = true;
+            else{
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+        }
     }
 }
