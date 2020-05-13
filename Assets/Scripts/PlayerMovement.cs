@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
     public LayerMask whatIsGround;
     public bool attacking;
+    public int playerHP = 3;
+    public Slider playerHPBar;
 
     // Start is called before the first frame update
     void Start()
@@ -26,15 +29,21 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        float h = Input.GetAxis("Horizontal");
+        playerHPBar.value = playerHP;
+        //float h = Input.GetAxis("Horizontal");
+        float h = SimpleInput.GetAxis("Horizontal");
 
         rig.velocity = new Vector2(movementSpeed*h, rig.velocity.y);
         anim.SetFloat("speed", Mathf.Abs(h));
 
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         anim.SetBool("jump", !grounded);
-
-        if(Input.GetButtonDown("Jump") && grounded){
+        
+        // if(Input.GetButtonDown("Jump") && grounded){
+        //     rig.AddForce(Vector2.up * jumpForce);
+        // }
+        
+        if(SimpleInput.GetAxis("Vertical") > 0 && grounded){
             rig.AddForce(Vector2.up * jumpForce);
         }
 
@@ -70,4 +79,18 @@ public class PlayerMovement : MonoBehaviour
         attacking = false;
     }
 
+    public void AttackAnimation(){
+        anim.SetTrigger("attack");
+    }
+
+    public void TakeDamage(int damage){
+        playerHP -= damage;
+        if(playerHP <= 0){
+            anim.SetTrigger("die");  
+        }
+    }
+
+    public void DestroyPlayer(){
+        Destroy(this.gameObject);
+    }
 }
