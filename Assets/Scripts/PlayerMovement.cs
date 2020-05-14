@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerMovement : MonoBehaviour
 {
     public float movementSpeed = 4;
-    public float jumpForce = 200;
+    public float jumpForce = 2;
     private Rigidbody2D rig;
     private Animator anim;
     private SpriteRenderer spr;
@@ -14,6 +14,11 @@ public class PlayerMovement : MonoBehaviour
     public bool grounded;
     public float groundCheckRadius = 0.2f;
     public LayerMask whatIsGround;
+
+    public bool isJumping;
+    private float jumpTimeCounter;
+    public float jumpTime;
+
     public bool attacking;
     public int playerHP = 3;
     public Slider playerHPBar;
@@ -42,9 +47,27 @@ public class PlayerMovement : MonoBehaviour
         // if(Input.GetButtonDown("Jump") && grounded){
         //     rig.AddForce(Vector2.up * jumpForce);
         // }
-        
+
+        //Input.GetButtonDown
         if(SimpleInput.GetAxis("Vertical") > 0 && grounded){
-            rig.AddForce(Vector2.up * jumpForce);
+            isJumping = true;
+            jumpTimeCounter = jumpTime;
+            rig.velocity = Vector2.up * jumpForce;
+        }
+        //Input.GetButton
+        if(SimpleInput.GetAxis("Vertical") > 0 && isJumping){
+            if(jumpTimeCounter >0){
+                rig.velocity = Vector2.up * jumpForce;
+                jumpTimeCounter -= Time.deltaTime;
+            }
+            else{
+                isJumping = false;
+            }
+        }
+        //Input.GetButtonUp
+        if(SimpleInput.GetAxis("Vertical") == 0 ){
+            isJumping = false;
+
         }
 
         if(h > 0)
@@ -86,7 +109,10 @@ public class PlayerMovement : MonoBehaviour
     public void TakeDamage(int damage){
         playerHP -= damage;
         if(playerHP <= 0){
+            playerHPBar.value = playerHP;
+            Destroy(playerHPBar.transform.GetChild(1).gameObject);
             anim.SetTrigger("die");  
+            Destroy(this);
         }
     }
 

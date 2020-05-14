@@ -300,7 +300,7 @@ GameObject:
   - component: {fileID: 326194909}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -423,13 +423,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 6
-  jumpForce: 500
+  jumpForce: 10
   groundCheck: {fileID: 531866485}
   grounded: 0
   groundCheckRadius: 0.2
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+  isJumping: 0
+  jumpTime: 0.5
   attacking: 0
   playerHP: 3
   playerHPBar: {fileID: 52235435}
@@ -644,6 +646,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHP: 3
   moveSpeed: 2
+  attackDistance: 3
+  playerTransform: {fileID: 0}
 --- !u!1 &447150547
 GameObject:
   m_ObjectHideFlags: 0
