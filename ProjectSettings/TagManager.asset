@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Limiter
+  - Heal
   layers:
   - Default
   - TransparentFX

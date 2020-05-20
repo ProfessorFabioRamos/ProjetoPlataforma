@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public bool attacking;
     public int playerHP = 3;
     public Slider playerHPBar;
+    public bool isAlive = true;
 
     // Start is called before the first frame update
     void Start()
@@ -34,50 +35,52 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        playerHPBar.value = playerHP;
-        //float h = Input.GetAxis("Horizontal");
-        float h = SimpleInput.GetAxis("Horizontal");
+        if(isAlive){
+            playerHPBar.value = playerHP;
+            //float h = Input.GetAxis("Horizontal");
+            float h = SimpleInput.GetAxis("Horizontal");
 
-        rig.velocity = new Vector2(movementSpeed*h, rig.velocity.y);
-        anim.SetFloat("speed", Mathf.Abs(h));
+            rig.velocity = new Vector2(movementSpeed*h, rig.velocity.y);
+            anim.SetFloat("speed", Mathf.Abs(h));
 
-        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        anim.SetBool("jump", !grounded);
-        
-        // if(Input.GetButtonDown("Jump") && grounded){
-        //     rig.AddForce(Vector2.up * jumpForce);
-        // }
+            grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+            anim.SetBool("jump", !grounded);
+            
+            // if(Input.GetButtonDown("Jump") && grounded){
+            //     rig.AddForce(Vector2.up * jumpForce);
+            // }
 
-        //Input.GetButtonDown
-        if(SimpleInput.GetAxis("Vertical") > 0 && grounded){
-            isJumping = true;
-            jumpTimeCounter = jumpTime;
-            rig.velocity = Vector2.up * jumpForce;
-        }
-        //Input.GetButton
-        if(SimpleInput.GetAxis("Vertical") > 0 && isJumping){
-            if(jumpTimeCounter >0){
+            //Input.GetButtonDown
+            if(SimpleInput.GetAxis("Vertical") > 0 && grounded){
+                isJumping = true;
+                jumpTimeCounter = jumpTime;
                 rig.velocity = Vector2.up * jumpForce;
-                jumpTimeCounter -= Time.deltaTime;
             }
-            else{
+            //Input.GetButton
+            if(SimpleInput.GetAxis("Vertical") > 0 && isJumping){
+                if(jumpTimeCounter >0){
+                    rig.velocity = Vector2.up * jumpForce;
+                    jumpTimeCounter -= Time.deltaTime;
+                }
+                else{
+                    isJumping = false;
+                }
+            }
+            //Input.GetButtonUp
+            if(SimpleInput.GetAxis("Vertical") == 0 ){
                 isJumping = false;
+
             }
-        }
-        //Input.GetButtonUp
-        if(SimpleInput.GetAxis("Vertical") == 0 ){
-            isJumping = false;
 
-        }
-
-        if(h > 0)
-             Flip(true);
-        else if(h < 0)
-            Flip(false);
+            if(h > 0)
+                Flip(true);
+            else if(h < 0)
+                Flip(false);
 
 
-        if(Input.GetKeyDown(KeyCode.E)){
-            anim.SetTrigger("attack");
+            if(Input.GetKeyDown(KeyCode.E)){
+                anim.SetTrigger("attack");
+            }
         }
     }
 
@@ -86,6 +89,13 @@ public class PlayerMovement : MonoBehaviour
             spr.flipX = false;
         else
             spr.flipX = true;
+    }
+
+    void OnTriggerEnter2D(Collider2D other){
+        if(other.tag == "Heal"){
+            TakeDamage(-1);
+            Destroy(other.gameObject);
+        }
     }
 
     void OnTriggerStay2D(Collider2D other){
@@ -108,15 +118,27 @@ public class PlayerMovement : MonoBehaviour
 
     public void TakeDamage(int damage){
         playerHP -= damage;
+
+        if(playerHP > 3)
+            playerHP = 3;
+
         if(playerHP <= 0){
             playerHPBar.value = playerHP;
             Destroy(playerHPBar.transform.GetChild(1).gameObject);
             anim.SetTrigger("die");  
-            Destroy(this);
+            isAlive = false;
+            Invoke("Respawn", 4);
         }
     }
 
     public void DestroyPlayer(){
         Destroy(this.gameObject);
+    }
+
+    void Respawn(){
+        transform.position = GameObject.Find("Respawn").transform.position;
+        anim.SetTrigger("respawn");
+        playerHP = 3;
+        isAlive = true;
     }
 }

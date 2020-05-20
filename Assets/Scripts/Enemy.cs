@@ -7,6 +7,7 @@ public class Enemy : MonoBehaviour
     public int enemyHP = 3;
     public float moveSpeed = 2;
     public float attackDistance = 3;
+    private float distance;
     Animator anim;
     Rigidbody2D rig;
     public Transform playerTransform;
@@ -27,7 +28,7 @@ public class Enemy : MonoBehaviour
     }
 
     void Update(){
-        float distance = Vector2.Distance(transform.position, playerTransform.position);
+        distance = Vector2.Distance(transform.position, playerTransform.position);
         if(distance <= attackDistance)
             anim.SetTrigger("attack");
     }
@@ -40,11 +41,13 @@ public class Enemy : MonoBehaviour
     }
 
     public void Damage(){
-        try{
-            playerTransform.GetComponent<PlayerMovement>().TakeDamage(1);
-        }
-        catch(System.Exception){
-            Debug.LogWarning("O Player já foi derrotado");
+        if(distance <= attackDistance){
+            try{
+                playerTransform.GetComponent<PlayerMovement>().TakeDamage(1);
+            }
+            catch(System.Exception){
+                Debug.LogWarning("O Player já foi derrotado");
+            }
         }
     }
 
