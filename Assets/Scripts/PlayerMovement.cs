@@ -24,12 +24,17 @@ public class PlayerMovement : MonoBehaviour
     public Slider playerHPBar;
     public bool isAlive = true;
 
+    public AudioClip[] sounds;
+    
+    private AudioSource aud;
+
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
+        aud = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -55,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
                 isJumping = true;
                 jumpTimeCounter = jumpTime;
                 rig.velocity = Vector2.up * jumpForce;
+                //aud.PlayOneShot(sounds[0]);
             }
             //Input.GetButton
             if(SimpleInput.GetAxis("Vertical") > 0 && isJumping){
@@ -80,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
             if(Input.GetKeyDown(KeyCode.E)){
                 anim.SetTrigger("attack");
+                //aud.PlayOneShot(sounds[1]);
             }
         }
     }
@@ -118,6 +125,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void TakeDamage(int damage){
         playerHP -= damage;
+        //aud.PlayOneShot(sounds[2]);
 
         if(playerHP > 3)
             playerHP = 3;
@@ -132,10 +140,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void DestroyPlayer(){
+        //aud.PlayOneShot(sounds[3]);
         Destroy(this.gameObject);
     }
 
     void Respawn(){
+        //aud.PlayOneShot(sounds[4]);
         transform.position = GameObject.Find("Respawn").transform.position;
         anim.SetTrigger("respawn");
         playerHP = 3;
