@@ -7,8 +7,8 @@ public class Enemy : MonoBehaviour
     public int enemyHP = 3;
     public float moveSpeed = 2;
     public float attackDistance = 3;
-    private float distance;
-    Animator anim;
+    protected float distance;
+    protected Animator anim;
     Rigidbody2D rig;
     public Transform playerTransform;
 
@@ -30,7 +30,11 @@ public class Enemy : MonoBehaviour
     void Update(){
         distance = Vector2.Distance(transform.position, playerTransform.position);
         if(distance <= attackDistance)
-            anim.SetTrigger("attack");
+            Attack();
+    }
+
+    public void Attack(){
+        anim.SetTrigger("attack");
     }
 
     public void TakeDamage(int damage){
