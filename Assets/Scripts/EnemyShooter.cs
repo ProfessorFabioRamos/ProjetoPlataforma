@@ -9,8 +9,22 @@ public class EnemyShooter : Enemy
     private float coolDownTimer;
     private bool canShoot = true;
     public float bulletSpeed = 20;
+    public Transform shootingPosition;
+    private float direction = 1;
+
     new void Update(){
         distance = Vector2.Distance(transform.position, playerTransform.position);
+        if(distance <= attackDistance){
+            if(transform.position.x > playerTransform.position.x){
+                moveSpeed = -2;
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else{
+                moveSpeed = 2;
+                GetComponent<SpriteRenderer>().flipX = true;
+            }
+        }
+
         if(distance <= attackDistance && canShoot){
             Attack();
             canShoot = false;
@@ -27,8 +41,11 @@ public class EnemyShooter : Enemy
 
     new public void Attack(){
         anim.SetTrigger("attack");
-        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, shootingPosition.position, Quaternion.identity);
         Rigidbody2D rig = bullet.GetComponent<Rigidbody2D>();
-        rig.velocity = new Vector2(bulletSpeed, rig.velocity.y);
+        if(moveSpeed>0)
+            rig.velocity = new Vector2(bulletSpeed, rig.velocity.y);
+        else if(moveSpeed<0)
+            rig.velocity = new Vector2(-bulletSpeed, rig.velocity.y);
     }
 }

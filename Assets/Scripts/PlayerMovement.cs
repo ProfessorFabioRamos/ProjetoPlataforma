@@ -103,6 +103,10 @@ public class PlayerMovement : MonoBehaviour
             TakeDamage(-1);
             Destroy(other.gameObject);
         }
+        else if(other.tag == "EnemyBullet"){
+            TakeDamage(1);
+            Destroy(other.gameObject);
+        }
     }
 
     void OnTriggerStay2D(Collider2D other){
@@ -130,9 +134,10 @@ public class PlayerMovement : MonoBehaviour
         if(playerHP > 3)
             playerHP = 3;
 
-        if(playerHP <= 0){
+        if(playerHP <= 0 && isAlive){
+            Debug.Log("MORRI!!!!!!!!!!!!!");
             playerHPBar.value = playerHP;
-            Destroy(playerHPBar.transform.GetChild(1).gameObject);
+            playerHPBar.transform.GetChild(1).gameObject.SetActive(false);
             anim.SetTrigger("die");  
             isAlive = false;
             Invoke("Respawn", 4);
@@ -150,5 +155,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetTrigger("respawn");
         playerHP = 3;
         isAlive = true;
+        playerHPBar.transform.GetChild(1).gameObject.SetActive(true);
+        spr.flipX = false;
     }
 }
